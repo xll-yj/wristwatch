@@ -1,0 +1,107 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  background: #fafafa; }
+
+/*header首部*/
+h3 {
+  width: 1000px;
+  height: 75px;
+  margin: 25px auto; }
+
+/*main*/
+main {
+  margin: 0 auto;
+  width: 988px;
+  height: 514px;
+  padding: 50px 0;
+  background-color: #fff; }
+  main h2 {
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: normal; }
+  main div {
+    width: 338px;
+    height: 371px;
+    margin: 0 auto; }
+    main div p {
+      width: 100%;
+      height: 40px;
+      line-height: 40px;
+      position: relative;
+      margin: 12px 0; }
+      main div p a {
+        width: 40px;
+        display: inline-block;
+        height: 40px;
+        position: absolute;
+        top: 2px;
+        text-decoration: none;
+        text-align: center; }
+        main div p a span {
+          display: inline-block;
+          width: 14px;
+          height: 16px; }
+        main div p a .sp1 {
+          background: url(../imgs/a.png) 14px -25px; }
+        main div p a .sp2 {
+          background: url(../imgs/a.png) 14px 0px; }
+        main div p a .sp3 {
+          background: url(../imgs/a.png) 14px 0px; }
+        main div p a .sp4 {
+          background: url(../imgs/a.png) 14px -50px; }
+        main div p a .sp5 {
+          background: url(../imgs/a.png) 14px -50px; }
+      main div p input {
+        width: 100%;
+        height: 100%;
+        outline: none;
+        font-size: 12px;
+        color: #ddd;
+        border: 1px solid #ddd;
+        text-indent: 44px; }
+      main div p em {
+        width: 16px;
+        height: 16px; }
+      main div p i {
+        width: 16px;
+        height: 16px; }
+    main div .yanz input {
+      width: 230px; }
+    main div .yanz button {
+      width: 98px;
+      height: 42px;
+      vertical-align: middle;
+      background-color: #fff;
+      color: #000;
+      border: 1px solid #ddd;
+      outline: none;
+      margin-left: 3px; }
+    main div .yanz #v_container {
+      display: inline-block;
+      width: 94px;
+      height: 42px;
+      vertical-align: middle;
+      margin-left: 7px; }
+    main div .last {
+      width: 340px;
+      height: 38px;
+      font-size: 14px;
+      background-color: #B32424;
+      outline: none;
+      color: white;
+      border: none;
+      margin-top: 23px; }
+    main div .ljzc {
+      font-size: 12px;
+      color: #999;
+      line-height: 58px;
+      padding-top: 15px; }

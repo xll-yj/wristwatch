@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+<body>
+    <header>
+        <p><a>正品保障，免息分期</a></p>
+        <ul class="uls">
+            <li><a id="login" href="./login.html" class="black">请登录</a></li>
+            <li class="red"><a id="registor" href="./registor.html" class="red">注册即送3500元大礼包</a></li>
+            <li class="cut">|</li>
+            <li class="red"><a id="cart" href="./cart.html" class="red">购物车</a></li>
+            <li class="fuwu">
+                <a class="afu">
+                    客户服务
+                </a>
+                <div class="fuwus">
+                    <div class="fuwu1">
+                        <a href="">客户顾问</a>
+                        <a href="">售后维修</a>
+                        <a href="">帮助中心</a>
+                        <a href="">办理信用卡</a>
+                    </div>
+                    <div class="fuwu2">
+                        <p>服务专线：400-1252-1525</p>
+                        <p>外呼号码：400-1252-1525</p>
+                    </div>
+                </div>
+            </li>
+            <li><a>会员福利</a></li>
+            <li class="cut">|</li>
+            <li><a>ENGLISH</a></li>
+        </ul>
+    </header>
+    <div class="topdiv">
+        <h3>
+            <img src="../imgs/logo-icon.png" alt="">
+            <img src="../imgs/slogan-02242018.png" alt="">
+        </h3>
+        <h4 id="mainhh4">全部商品<span>12</span></h4>
+    </div>
+    
+    <section class="cartMain">
+        <div class="cartMain_hd">
+            <ul class="order_lists cartTop">
+                <li class="list_chk">
+                    <!--所有商品全选-->
+                    <input type="checkbox" id="all" class="whole_check">
+                    <label for="all"></label>
+                    全选
+                </li>
+                <li class="list_con">商品信息</li>
+                <li class="list_price">单价</li>
+                <li class="list_amount">数量</li>
+                <li class="list_sum">小计</li>
+                <li class="list_op">操作</li>
+            </ul>
+        </div>
+
+        <div class="cartBox">
+            <div class="shop_info">
+                <div class="all_check">
+                    <!--店铺全选-->
+                    <input type="checkbox" id="shop_a" class="shopChoice">
+                    <label for="shop_a" class="shop"></label>
+                </div>
+                <div class="shop_name">
+                    <a href="javascript:;">瑞士爱宝时旗舰店</a>
+                </div>
+            </div>
+            <div class="order_content">
+                <ul class="order_lists">
+                    <li class="list_chk">
+                        <input type="checkbox" id="checkbox_1" class="son_check">
+                        <label for="checkbox_1"></label>
+                    </li>
+                    <li class="list_con">
+                        <div class="list_img"><a href="javascript:;"><img src="../imgs/3dadc3cefd244fe689fbafd54afc2b37.jpg" alt=""></a></div>
+                        <div class="list_text"><a href="javascript:;">瑞士爱宝时   真皮  白色   牛皮</a></div>
+                    </li>
+                    <li class="list_price">
+                        <p class="price">￥9980</p>
+                    </li>
+                    <li class="list_amount">
+                        <div class="amount_box">
+                            <a href="javascript:;" class="reduce reSty">-</a>
+                            <input type="text" value="1" class="sum">
+                            <a href="javascript:;" class="plus">+</a>
+                        </div>
+                    </li>
+                    <li class="list_sum">
+                        <p class="sum_price">￥9980</p>
+                    </li>
+                    <li class="list_op">
+                        <p class="del"><a href="javascript:;" class="delBtn">删除</a></p>
+                    </li>
+                </ul>
+                <ul class="order_lists">
+                    <li class="list_chk">
+                        <input type="checkbox" id="checkbox_2" class="son_check">
+                        <label for="checkbox_2"></label>
+                    </li>
+                    <li class="list_con">
+                        <div class="list_img"><a href="javascript:;"><img src="../imgs/3dadc3cefd244fe689fbafd54afc2b37.jpg" alt=""></a></div>
+                        <div class="list_text"><a href="javascript:;">瑞士爱宝时   真皮  白色   牛皮</a></div>
+                    </li>
+                    <li class="list_price">
+                        <p class="price">￥9980</p>
+                    </li>
+                    <li class="list_amount">
+                        <div class="amount_box">
+                            <a href="javascript:;" class="reduce reSty">-</a>
+                            <input type="text" value="1" class="sum">
+                            <a href="javascript:;" class="plus">+</a>
+                        </div>
+                    </li>
+                    <li class="list_sum">
+                        <p class="sum_price">￥9980</p>
+                    </li>
+                    <li class="list_op">
+                        <p class="del"><a href="javascript:;" class="delBtn">删除</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="cartBox">
+            <div class="shop_info">
+                <div class="all_check">
+                    <!--店铺全选-->
+                    <input type="checkbox" id="shop_b" class="shopChoice">
+                    <label for="shop_b" class="shop"></label>
+                </div>
+                <div class="shop_name">
+                    <a href="javascript:;">精品旗舰店</a>
+                </div>
+            </div>
+            <div class="order_content">
+                <ul class="order_lists">
+                    <li class="list_chk">
+                        <input type="checkbox" id="checkbox_3" class="son_check">
+                        <label for="checkbox_3"></label>
+                    </li>
+                    <li class="list_con">
+                        <div class="list_img"><a href="javascript:;"><img src="../imgs/36f251d6757448c0ae5dbfcaebdb3b0a.jpg" alt=""></a></div>
+                        <div class="list_text"><a href="javascript:;">瑞士爱宝时   真皮  白色   牛皮</a></div>
+                    </li>
+                    <li class="list_price">
+                        <p class="price">￥9980</p>
+                    </li>
+                    <li class="list_amount">
+                        <div class="amount_box">
+                            <a href="javascript:;" class="reduce reSty">-</a>
+                            <input type="text" value="1" class="sum">
+                            <a href="javascript:;" class="plus">+</a>
+                        </div>
+                    </li>
+                    <li class="list_sum">
+                        <p class="sum_price">￥9980</p>
+                    </li>
+                    <li class="list_op">
+                        <p class="del"><a href="javascript:;" class="delBtn">删除</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        
+        <!--底部-->
+        <div class="bar-wrapper">
+            <div class="bar-right">
+                <div class="piece">已选商品<strong class="piece_num">0</strong>件</div>
+                <div class="totalMoney">合计: <strong class="total_text">0</strong></div>
+                <div class="calBtn"><a href="javascript:;">结算</a></div>
+            </div>
+        </div>
+    </section>
+    <section class="model_bg"></section>
+    <section class="my_model">
+        <p class="title">删除宝贝<span class="closeModel">X</span></p>
+        <p>您确认要删除该宝贝吗？</p>
+        <div class="opBtn"><a href="javascript:;" class="dialog-sure">确定</a><a href="javascript:;" class="dialog-close">关闭</a></div>
+    </section>
+
+    <div class="last">
+        <a href="">
+            <span></span>
+            <i>正品保障</i>
+        </a>
+        <a href="">
+            <span></span>
+            <i>正品保障</i>
+        </a>
+        <a href="">
+            <span></span>
+            <i>正品保障</i>
+        </a>
+        <a href="">
+            <span></span>
+            <i>正品保障</i>
+        </a>
+        <a href="">
+            <span></span>
+            <i>正品保障</i>
+        </a>
+    </div>
+    <footer>
+        <div class="fot1">
+            <h3>客服电话</h3>
+            <h2>400-833-2628</h2>
+            <p>
+                <em>外呼电话</em>
+                <i>400-833-2669</i>
+            </p>
+            <span>售后维修</span>
+        </div>
+        <div class="fot2">
+            <ul>
+                <li>
+                    <dl>新手指南</dl>
+                    <dt>注册新会员</dt>
+                    <dt>购物流程</dt>
+                    <dt>手表小知识</dt>
+                    <dt>退换货流程</dt>
+                </li>
+                <li>
+                    <dl>支付</dl>
+                    <dt>支付方式</dt>
+                    <dt>分期付款</dt>
+                    <dt>发票说明</dt>
+                    <dt>支付问题</dt>
+                </li>
+                <li>
+                    <dl>配送</dl>
+                    <dt>支付方式</dt>
+                    <dt>分期付款</dt>
+                    <dt>发票说明</dt>
+                    <dt>支付问题</dt>
+                </li>
+                <li>
+                    <dl>万表保障</dl>
+                    <dt>支付方式</dt>
+                    <dt>分期付款</dt>
+                    <dt>发票说明</dt>
+                    <dt>支付问题</dt>
+                </li>
+                <li>
+                    <dl>开放合作</dl>
+                    <dt>支付方式</dt>
+                    <dt>分期付款</dt>
+                    <dt>发票说明</dt>
+                    <dt>支付问题</dt>
+                </li>
+            </ul>
+        </div>
+        <img src="../imgs/qrcode_02.png" alt="">
+    </footer>
+    <div class="zixun">
+        <p>
+            <a href="">万表app</a>
+            <a href="">万表名匠</a>
+            <a href="">万表二手表</a>
+            <a href="">新款手表</a>
+            <a href="">高价回收</a>
+            <a href="">热销</a>
+            <a href="">天猫万表网旗舰店</a>
+            <a href="">京东万表网旗舰店</a>
+            <a href="">手表资讯</a>
+            <a href="">天梭手表</a>
+            <a href="">&gt;</a>
+        </p>
+        <div>
+            <p>广州市万表科技股份有限公司 / 广州市万表信息技术有限公司 地址:广州市番禺区番禺大道北16号</p>
+            <p>广州市万表科技股份有限公司 / 广州市万表信息技术有限公司 地址:广州市番禺区番禺大道北16号</p>
+            <p>Copyright 2009-2020 WWW.WBIAO.CN.LTD ALL RIGHT RESERVED.</p>
+        </div>
+    </div>
+    <div class="end">
+        <img src="../imgs/ea49d2babdfb40e8a6299853dcdaad95.png" alt="">
+        <img src="../imgs/974c6d4831df40e1a8f373b813bf0ff6.png" alt="">
+    </div>
+    <script src="../js/jquery-1.12.4.js"></script>
+    <script src="../js/carts.js"></script>
+</body>
+</html>

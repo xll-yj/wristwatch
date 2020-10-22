@@ -1,0 +1,315 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  height: 100%; }
+
+img {
+  display: block; }
+
+/*1.----header--提示信息行*/
+/*去掉列表符号*/
+header {
+  height: 28px;
+  font-size: 12px;
+  line-height: 28px;
+  padding: 0 75px;
+  background: #f4f4f4; }
+  header p {
+    float: left;
+    color: #998c59; }
+  header a:hover {
+    cursor: pointer; }
+
+/*提示信息左侧*/
+li {
+  list-style: none; }
+  li a:hover {
+    text-decoration: solid; }
+
+/*提示信息右侧*/
+.uls {
+  float: right; }
+  .uls a:hover {
+    text-decoration: underline; }
+  .uls li {
+    float: left; }
+    .uls li a {
+      padding: 0 10px; }
+    .uls li:hover {
+      background-color: #fff; }
+      .uls li:hover .fuwus {
+        display: block; }
+      .uls li:hover .afu {
+        text-decoration: none; }
+    .uls li .fuwus {
+      display: none;
+      border: 1px solid #ccc;
+      width: 216px;
+      position: absolute;
+      background-color: #fff;
+      padding: 15px 0;
+      z-index: 2;
+      right: 244px; }
+      .uls li .fuwus .fuwu1 {
+        width: 188px;
+        color: #666;
+        font-size: 12px;
+        right: 245px;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 15px;
+        margin: 0 auto; }
+        .uls li .fuwus .fuwu1 a {
+          width: 72px;
+          height: 26px;
+          line-height: 26px;
+          display: inline-block;
+          text-decoration: none;
+          font-size: 12px;
+          color: #666; }
+          .uls li .fuwus .fuwu1 a:hover {
+            text-decoration: underline; }
+      .uls li .fuwus .fuwu2 {
+        width: 218px;
+        color: #999;
+        font-size: 12px;
+        top: 96px;
+        right: 245px;
+        padding: 15px 0; }
+        .uls li .fuwus .fuwu2 p {
+          width: 100%;
+          height: 28px;
+          line-height: 28px;
+          text-align: center; }
+
+/*分隔线*/
+.cut {
+  padding: 0 8px;
+  color: #ddd; }
+
+.red {
+  color: #cc5252; }
+
+/*2.-----搜索导航*/
+nav {
+  height: 115px;
+  line-height: 115px;
+  margin: 0 75px;
+  background-color: #fff;
+  display: flex; }
+  nav .navLeft {
+    width: 404px;
+    line-height: 115px;
+    padding-top: 20px; }
+  nav img:last-child {
+    width: 115px;
+    height: 115px; }
+
+/*搜索框和二维码*/
+.navRight {
+  width: 796px;
+  height: 115px;
+  line-height: 115px;
+  display: flex;
+  justify-content: space-between; }
+
+.icon-chaxun:before {
+  position: absolute;
+  top: -37px;
+  height: 0;
+  left: 7px; }
+
+.subs {
+  position: relative; }
+  .subs span {
+    width: 30px;
+    height: 38px;
+    border: 1px solid #dfdfdf;
+    border-right: none;
+    position: absolute;
+    top: 40px;
+    display: block;
+    color: #a5a5a5; }
+  .subs .con {
+    width: 185px;
+    height: 38px;
+    border: 1px solid #dfdfdf;
+    border-left: none;
+    position: absolute;
+    top: 40px;
+    display: block;
+    margin-left: 30px;
+    text-indent: 5px;
+    color: #d6d6d6;
+    outline: none; }
+  .subs .sea {
+    width: 76px;
+    height: 40px;
+    background-image: linear-gradient(-270deg, #da6666 0, #b33636 100%);
+    position: absolute;
+    top: 40px;
+    left: 215px;
+    color: white;
+    font-size: 14px;
+    border: none;
+    outline: none; }
+
+/*导航栏左的图片*/
+.navLeft img:last-child {
+  width: 175px;
+  height: 75px; }
+
+/*3.-----navs--列表导航*/
+.navs {
+  display: flex;
+  font-size: 14px;
+  margin: 0 75px;
+  background-color: #fff; }
+  .navs:hover {
+    cursor: pointer; }
+
+/*全部商品*/
+.navs p {
+  width: 170px;
+  height: 48px;
+  line-height: 48px;
+  background-image: linear-gradient(-270deg, #da6666 0, #b33636 100%);
+  padding: 0 16px;
+  color: white; }
+  .navs p span {
+    float: right;
+    font-size: 25px; }
+
+/*详细列表项*/
+.navs ul {
+  width: 796px;
+  height: 41px;
+  line-height: 41px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 40px; }
+  .navs ul li:hover {
+    border-bottom: 3px solid #cc5252; }
+
+/*11.-----last部分*/
+.last {
+  margin: 0 75px;
+  display: flex; }
+  .last a {
+    display: block;
+    width: 240px;
+    height: 60px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px; }
+    .last a span {
+      display: inline-block;
+      width: 38px;
+      height: 38px;
+      background: url(../imgs/a.png) no-repeat -409px -357px;
+      vertical-align: middle;
+      margin-right: 8px; }
+    .last a i {
+      font-style: normal; }
+
+/*12.-----footer部分*/
+footer {
+  height: 140px;
+  padding: 44px 75px 80px;
+  background-color: #000;
+  display: flex; }
+  footer .fot1 {
+    width: 150px;
+    height: 132px;
+    margin-right: 122px; }
+    footer .fot1 h3 {
+      font-size: 14px;
+      margin-bottom: 12px;
+      color: #cc9952; }
+    footer .fot1 h2 {
+      font-size: 20px;
+      color: #cc9952;
+      line-height: 31px;
+      font-weight: normal; }
+    footer .fot1 p {
+      line-height: 16px;
+      font-size: 12px;
+      color: #999; }
+      footer .fot1 p i, footer .fot1 p em {
+        font-style: normal;
+        margin-right: 5px; }
+    footer .fot1 span {
+      display: block;
+      margin-top: 16px;
+      width: 138px;
+      height: 38px;
+      line-height: 38px;
+      text-align: center;
+      color: #999;
+      border: 1px solid #999;
+      border-radius: 20px; }
+  footer .fot2 {
+    width: 520px;
+    height: 139px; }
+    footer .fot2 ul {
+      display: flex; }
+      footer .fot2 ul li {
+        width: 80px;
+        height: 139px;
+        margin-right: 24px; }
+        footer .fot2 ul li dl {
+          font-size: 14px;
+          margin-bottom: 13px;
+          color: #CCC; }
+        footer .fot2 ul li dt {
+          height: 28px;
+          line-height: 28px;
+          color: #999;
+          font-size: 12px; }
+  footer img {
+    margin-left: 190px;
+    width: 113px;
+    height: 113px; }
+
+/*13.------*/
+.zixun {
+  background-color: #000;
+  height: 178px; }
+  .zixun p {
+    text-align: center; }
+    .zixun p a {
+      text-decoration: none;
+      font-size: 12px;
+      color: #999;
+      margin: 0 10px; }
+  .zixun div {
+    color: #999;
+    padding: 43px 0 40px; }
+    .zixun div p {
+      height: 18px;
+      font-size: 12px;
+      margin-bottom: 10px; }
+
+/*14.----end*/
+.end {
+  height: 40px;
+  background-color: #eee;
+  padding: 24px 0 41px;
+  display: flex;
+  justify-content: center; }
+  .end img {
+    width: 98px;
+    margin: 0 20px 0px 0; }
+
+.black {
+  color: #000;
+  text-decoration: none; }
+
+.red {
+  text-decoration: none; }

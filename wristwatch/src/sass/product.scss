@@ -1,0 +1,29 @@
+.pos{
+    padding: 0 75px;
+    height: 36px;
+    color: #666;
+    font-size: 12px;
+    line-height: 36px;
+    background-color: #f1f1f1;
+    a{
+        color: #666;
+        font-size: 12px;
+        text-decoration: none;
+    }
+    div{
+       float: right; 
+       span{
+           margin-right: 10px;
+       }
+    }
+}
+
+/**/
+.list{
+    padding: 0 75px;
+    .leftlist{
+        width: 210px;
+        height: 4851px;
+        background-color: #f5f5f5;
+    }
+}
